@@ -103,7 +103,7 @@ catch (PDOException $e) {
                 echo "<th>Kode Buku</th>";
                 echo "<th>Date</th></tr></thead><tbody>";
                 foreach($registrants as $registrant) {
-                    echo "<tr><td>".$registrant['nama']."</td>";
+                    echo "<tr><td>".$registrant['name']."</td>";
                     echo "<td>".$registrant['nip']."</td>";
                     echo "<td>".$registrant['book']."</td>";
                     echo "<td>".$registrant['date']."</td></tr>";
