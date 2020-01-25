@@ -9,7 +9,7 @@ use MicrosoftAzure\Storage\Blob\Models\CreateContainerOptions;
 use MicrosoftAzure\Storage\Blob\Models\PublicAccessType;
 
 $connectionString = "DefaultEndpointsProtocol=https;AccountName=clayrisestorage;AccountKey=gKbXX8M6lQ4A8PqMcXYQjQrAAUD2XoXIpTsqWYuXY2U0hlfAQ06xZv9MXaH1Gu6/e4AD7Ay5OWmbvaOOf63tbQ==;EndpointSuffix=core.windows.net";;
-$containerName = "";
+$containerName = "blockblobswlphzz";
 // Create blob client.
 $blobClient = BlobRestProxy::createBlobService($connectionString);
 if (isset($_POST['submit'])) {

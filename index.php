@@ -96,14 +96,14 @@ catch (PDOException $e) {
             $stmt = $conn->query($sql_select);
             $registrants = $stmt->fetchAll(); 
             if(count($registrants) > 0) {
-                echo "<h2>Buku yang sudah teregistrasi kendaraannya sebanyak : ".count($registrants)." pcs/h2>";
+                echo "<h2>Buku yang sudah teregistrasi kendaraannya sebanyak : ".count($registrants)." pcs</h2>";
                 echo "<table class='table table-hover'><thead>";
                 echo "<tr><th>Name</th>";
                 echo "<th>NIP</th>";
                 echo "<th>Kode Buku</th>";
                 echo "<th>Date</th></tr></thead><tbody>";
                 foreach($registrants as $registrant) {
-                    echo "<tr><td>".$registrant['name']."</td>";
+                    echo "<tr><td>".$registrant['nama']."</td>";
                     echo "<td>".$registrant['nip']."</td>";
                     echo "<td>".$registrant['book']."</td>";
                     echo "<td>".$registrant['date']."</td></tr>";
