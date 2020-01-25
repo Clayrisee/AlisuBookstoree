@@ -104,7 +104,7 @@ if (isset($_POST['submit'])) {
                 jQuery.parseJSON(jqXHR.responseText).message;
                 alert(errorString);
             });
-        });
+        };
     </script>
 <br>
 <div id="wrapper" style="width:1020px; display:table;">
