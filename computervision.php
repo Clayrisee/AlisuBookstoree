@@ -68,6 +68,7 @@ if (isset($_POST['submit'])) {
             // this region.
             var uriBase =
             "https://southeastasia.api.cognitive.microsoft.com/vision/v2.0/analyze";
+            var xhrObj = new XMLHttpsRequest();
             // Request parameters.
             var params = {
                 "visualFeatures": "Categories,Description,Color",
@@ -81,6 +82,7 @@ if (isset($_POST['submit'])) {
             $.ajax({
                 url: uriBase + "?" + $.param(params),
                 // Request headers.
+                
                 beforeSend: function(xhrObj){
                     xhrObj.setRequestHeader("Content-Type","application/json");
                     xhrObj.setRequestHeader("Ocp-Apim-Subscription-Key", subscriptionKey);
