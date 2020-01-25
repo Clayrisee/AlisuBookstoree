@@ -40,8 +40,8 @@
       </div>
         <form action="index.php" method="POST">
           <div class="form-group">
-            <label for="name">Nama: </label>
-            <input type="text" class="form-control" name="name" id="name" required="" >
+            <label for="nama">Nama: </label>
+            <input type="text" class="form-control" name="nama" id="nama" required="" >
         </div>
         <div class="form-group">
             <label for="nip">Nomor Induk Pelanggan (NIP): </label>
