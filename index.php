@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="https://raw.githubusercontent.com/Clayrise/AlisuBookstore/master/Do7xSB_XsAEUzne.ico">
+    <link rel="icon" href="https://raw.githubusercontent.com/Clayrisee/AlisuBookstoree/master/Do7xSB_XsAEUzne.ico">
 
     <title>Alisu Bookstore</title>
 
