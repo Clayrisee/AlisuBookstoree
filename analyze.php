@@ -9,7 +9,7 @@ use MicrosoftAzure\Storage\Blob\Models\CreateContainerOptions;
 use MicrosoftAzure\Storage\Blob\Models\PublicAccessType;
 
 $connectionString = "DefaultEndpointsProtocol=https;AccountName=clayrisestorage;AccountKey=gKbXX8M6lQ4A8PqMcXYQjQrAAUD2XoXIpTsqWYuXY2U0hlfAQ06xZv9MXaH1Gu6/e4AD7Ay5OWmbvaOOf63tbQ==";
-$containerName = "blockblobswlphzz";
+$containerName = "yourpet";
 // Create blob client.
 $blobClient = BlobRestProxy::createBlobService($connectionString);
 if (isset($_POST['submit'])) {
@@ -34,7 +34,7 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
 	<link rel="icon" href="https://raw.githubusercontent.com/Clayrisee/AlisuBookstoree/master/Do7xSB_XsAEUzne.ico">
 
    
-    <title>Alisu Bookstore</title>
+    <title>Alisu Petshop</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/starter-template/">
 
@@ -61,8 +61,8 @@ $result = $blobClient->listBlobs($containerName, $listBlobsOptions);
 		</nav>
 		<main role="main" class="container">
     		<div class="starter-template"> <br><br><br>
-        		<h1>Analisis Buku</h1>
-				<p class="lead">Pilih Foto Buku Anda.<br> Kemudian Click <b>Upload</b>, untuk menganlisa foto pilih <b>analyze</b> pada tabel.</p>
+        		<h1>Analisis Hewan</h1>
+				<p class="lead">Pilih Foto Hewan Anda.<br> Kemudian Click <b>Upload</b>, untuk menganlisa foto pilih <b>analyze</b> pada tabel.</p>
 				<span class="border-top my-3"></span>
 			</div>
 		<div class="mt-4 mb-2">

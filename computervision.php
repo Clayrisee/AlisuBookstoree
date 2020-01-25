@@ -19,7 +19,7 @@ if (isset($_POST['submit'])) {
             <meta name="author" content="">
             <link rel="icon" href="https://raw.githubusercontent.com/Clayrisee/AlisuBookstoree/master/Do7xSB_XsAEUzne.ico">
 
-            <title>Alisu Bookstore</title>
+            <title>Alisu Petshop</title>
 
             <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/starter-template/">
 
@@ -42,13 +42,13 @@ if (isset($_POST['submit'])) {
 				<a class="nav-link" href="https://clayrise.azurewebsites.net">Home</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="https://clayrise.azurewebsites.net/analyze.php">Analyze your favorite book<span class="sr-only">(current)</span></a>
+				<a class="nav-link" href="https://clayrise.azurewebsites.net/analyze.php">Analyze your favorite pet<span class="sr-only">(current)</span></a>
 			</li>
 		</div>
 		<main role="main" class="container">
     		<div class="starter-template"> <br><br><br>
-        		<h1>Hasil analisis buku</h1>
-				<p class="lead">Berikut merupakan hasil analisis buku yang <b>Anda</b> Upload <br> Karakteristik Foto buku ada pada kolom Response.</p>
+        		<h1>Hasil analisis hewan</h1>
+				<p class="lead">Berikut merupakan hasil analisis hewan yang <b>Anda</b> Upload <br> Karakteristik Foto hewan ada pada kolom Response.</p>
 				<span class="border-top my-3"></span>
 			</div>
         <script type="text/javascript">

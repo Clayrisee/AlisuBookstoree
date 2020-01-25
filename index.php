@@ -6,7 +6,7 @@
     <meta name="author" content="">
     <link rel="icon" href="https://raw.githubusercontent.com/Clayrisee/AlisuBookstoree/master/Do7xSB_XsAEUzne.ico">
 
-    <title>Alisu Bookstore</title>
+    <title>Alisu Petshop</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/starter-template/">
 
@@ -27,7 +27,7 @@
 			<a class="nav-link" href="https://clayrise.azurewebsites.net">Home</a>
 			</li>
 			<li class="nav-item">
-				<a class="nav-link" href="https://clayrise.azurewebsites.net/analyze.php">Analyze your favorite book<span class="sr-only">(current)</span></a>
+				<a class="nav-link" href="https://clayrise.azurewebsites.net/analyze.php">Analyze your favorite pet<span class="sr-only">(current)</span></a>
 			</li>
 		</div>
 		</nav>
@@ -35,7 +35,7 @@
     <main role="main" class="container">
     <div class="starter-template"> <br><br><br>
         <h1>Alisu Bookstore</h1>
-        <p class="lead">Isikan dengan lengkap dari <b>Nama, NIP, Kode Buku, Foto Buku </b> anda.<br> Kemudian Click <b>Submit</b> untuk Registrasi Buku anda.</p> <br>
+        <p class="lead">Isikan dengan lengkap dari <b>Nama, NIP, Nama Hewan Peliharaan, Foto Hewan </b> anda.<br> Kemudian Click <b>Submit</b> untuk Registrasi Buku anda.</p> <br>
         <span class="border-top my-3"></span>
       </div>
         <form action="index.php" method="POST">
@@ -48,7 +48,7 @@
             <input type="text" class="form-control" name="nip" id="nip" required=""maxlength="5">
         </div>
         <div class="form-group">
-            <label for="book">Kode Buku: </label>
+            <label for="book">Nama hewan peliharaan: </label>
             <input type="text" class="form-control" name="book" id="book" required=""maxlength="8">
         </div>
             <input type="submit" class="btn btn-success" name="submit" value="Submit data">
