@@ -55,7 +55,7 @@
         </form>
         <form action="index.php" method="GET">
           <div class="form-group">
-            <input type="submit" class="btn btn-info" name="load_data" value="Lihat Buku">
+            <input type="submit" class="btn btn-info" name="load_data" value="Lihat Data">
           </div>
         </form>   
    
