@@ -35,7 +35,7 @@
     <main role="main" class="container">
     <div class="starter-template"> <br><br><br>
         <h1>Alisu Bookstore</h1>
-        <p class="lead">Isikan dengan lengkap dari <b>Nama, NIP, Kode Buku, Foto Kendaraan </b> anda.<br> Kemudian Click <b>Submit</b> untuk Registrasi Buku anda.</p> <br>
+        <p class="lead">Isikan dengan lengkap dari <b>Nama, NIP, Kode Buku, Foto Buku </b> anda.<br> Kemudian Click <b>Submit</b> untuk Registrasi Buku anda.</p> <br>
         <span class="border-top my-3"></span>
       </div>
         <form action="index.php" method="POST">
