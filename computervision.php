@@ -14,22 +14,22 @@ if (isset($_POST['submit'])) {
     <html>
     <head>
         <meta charset="utf-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-            <meta name="description" content="">
-            <meta name="author" content="">
-            <link rel="icon" href="https://raw.githubusercontent.com/Clayrisee/AlisuBookstoree/master/Do7xSB_XsAEUzne.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="description" content="">
+        <meta name="author" content="">
+        <link rel="icon" href="https://raw.githubusercontent.com/Clayrisee/AlisuBookstoree/master/Do7xSB_XsAEUzne.ico">
 
-            <title>Alisu Petshop</title>
+        <title>Alisu Petshop</title>
 
-            <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/starter-template/">
+        <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/starter-template/">
 
-            <!-- Bootstrap core CSS -->
-            <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Bootstrap core CSS -->
+        <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
 
-            <!-- Custom styles for this template -->
-            <link href="starter-template.css" rel="stylesheet">
+        <!-- Custom styles for this template -->
+        <link href="starter-template.css" rel="stylesheet">
 
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     </head>
         <body>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
