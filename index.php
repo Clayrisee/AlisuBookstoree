@@ -96,7 +96,7 @@ catch (PDOException $e) {
             $stmt = $conn->query($sql_select);
             $registrants = $stmt->fetchAll(); 
             if(count($registrants) > 0) {
-                echo "<h2>Buku yang sudah teregistrasi kendaraannya sebanyak : ".count($registrants)." pcs</h2>";
+                echo "<h2>Hewan yang sudah teregistrasi sebanyak : ".count($registrants)." ekor</h2>";
                 echo "<table class='table table-hover'><thead>";
                 echo "<tr><th>Name</th>";
                 echo "<th>NIP</th>";
