@@ -52,7 +52,7 @@ if (isset($_POST['submit'])) {
 				<span class="border-top my-3"></span>
 			</div>
         <script type="text/javascript">
-            function processImage() {
+            $(document).ready(function() {
             // **********************************************
             // *** Update or verify the following values. ***
             // **********************************************
@@ -104,7 +104,7 @@ if (isset($_POST['submit'])) {
                 jQuery.parseJSON(jqXHR.responseText).message;
                 alert(errorString);
             });
-        };
+        });
     </script>
 <br>
 <div id="wrapper" style="width:1020px; display:table;">
