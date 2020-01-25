@@ -100,7 +100,7 @@ catch (PDOException $e) {
                 echo "<table class='table table-hover'><thead>";
                 echo "<tr><th>Name</th>";
                 echo "<th>NIP</th>";
-                echo "<th>Kode Buku</th>";
+                echo "<th>Nama Hewan</th>";
                 echo "<th>Date</th></tr></thead><tbody>";
                 foreach($registrants as $registrant) {
                     echo "<tr><td>".$registrant['nama']."</td>";
