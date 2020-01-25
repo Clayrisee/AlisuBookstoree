@@ -52,7 +52,7 @@ if (isset($_POST['submit'])) {
 				<span class="border-top my-3"></span>
 			</div>
         <script type="text/javascript">
-            $(document).ready(function () {
+            function processImage() {
             // **********************************************
             // *** Update or verify the following values. ***
             // **********************************************
