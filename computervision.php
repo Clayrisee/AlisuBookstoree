@@ -29,7 +29,7 @@ if (isset($_POST['submit'])) {
             <!-- Custom styles for this template -->
             <link href="starter-template.css" rel="stylesheet">
 
-            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
     </head>
         <body>
         <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
@@ -68,7 +68,7 @@ if (isset($_POST['submit'])) {
             // this region.
             var uriBase =
             "https://southeastasia.api.cognitive.microsoft.com/vision/v2.0/analyze";
-            var xhrObj = new XMLHttpsRequest();
+            //var xhrObj = new XMLHttpsRequest();
             // Request parameters.
             var params = {
                 "visualFeatures": "Categories,Description,Color",
